@@ -1,0 +1,105 @@
+
+
+.wrapper {
+  min-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper form {
+  margin-top: 30px;
+}
+
+.wrapper form .input-box {
+  margin-top: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  height: 52px;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #c7bebe;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="text"]:valid,
+input[type="email"]:focus,
+input[type="email"]:valid,
+input[type="tel"]:focus,
+input[type="tel"]:valid {
+  border-color: #ba2525;
+}
+
+button[type="submit"] {
+  color: #fff;
+  margin-top: 18px;
+  letter-spacing: 1px;
+  border: none;
+  background: #ba2525;
+  cursor: pointer;
+  padding: 12px 20px;
+  border: 1.5px solid #991212;
+  border-bottom-width: 4.5px;
+  border-radius: 8px;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #991212;
+  transition-delay: 0.2s;
+}
+.phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.phone button {
+  background: #ba2525;
+  color: #fff;
+  height: auto;
+  width: 130px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  padding: 14px 20px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  border: 0px solid #991212;
+  border-bottom-width: 4.5px;
+}
+.phone button:hover {
+  background: #991212;
+  color: #fff;
+}
+
+#otp-con {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.input-box.otp {
+  width: 25%;
+}
+
+.text h3 a {
+  color: #ba2525;
+  text-decoration: none;
+}
+
+.text h3 a:hover {
+  text-decoration: underline;
+}
